@@ -1,0 +1,22 @@
+name: diamondtobank
+main: org.gleknya.diamondtobank.Diamondtobank
+version: 1.3
+api-version: 1.21
+author: gleknya
+
+permissions:
+  diamondtobank.reload:
+    description: Позволяет перезагружать конфиг плагина
+    default: op
+
+
+commands:
+  deposit:
+    description: Пополнить баланс, сдав предмет в руку
+  take:
+    description: Получить предметы с баланса
+  diamondtobankreload:
+    description: Перезагрузить конфигурацию плагина
+    permission: diamondtobank.reload
+    usage: "/diamondtobankreload"
+
